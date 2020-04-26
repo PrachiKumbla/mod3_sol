@@ -1,0 +1,60 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color:   #ADD8E6;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav{
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand h1 { 
+  font-family:  Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.5em;
+  
+  font-weight: bold;
+  
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.menu-item-details {
+  font-size: .9em;
+}
+
+.content-style{
+  background-color: #6f142f;
+  padding: 30px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+
+  #navlist span{
+    color: #951C49;
+  }
+ 
+  #collapsable-nav span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+    text-align: center;
+    color: #fff;
+  }
+  .content-style{
+  position: relative;
+}
+}
